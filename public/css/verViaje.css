@@ -1,0 +1,280 @@
+.html{
+	background-color: #d2e5ed;
+	font-family: Roboto;
+	font-weight: 700;
+}
+.div1{
+	background-color: #608e99;
+	position: fixed;
+	width: 1038px;
+	height: 567;
+	left:50px;
+	top: 90px;
+	bottom: 10px;
+}
+.buscar{
+	background-color: #529AA7;
+	width: 100px;
+	height: 30px;
+	color: white;
+}
+.persona{
+	width: 130px;
+	height:112px;
+	float: bottom;
+	margin-top: 20px;
+	margin-left: 8px;	
+}
+.d{
+	background-color: #cccfd3;
+	width: 700px;
+	height: 150px;
+	float: bottom;
+	margin-top: 50px;
+	margin-left: calc(40% - 290px);	
+}
+.linea{
+	float: bottom;
+	margin-top: -82px;
+}
+
+.nameD{
+	font-family: Roboto;
+	color:#608e99 ;
+	float: bottom;
+	margin-top: -130px;
+	margin-left: 150px;
+}
+.nameI{
+	font-family: Roboto;
+	color:#608e99 ;
+	float: bottom;
+	margin-top: -150px;
+	margin-left: 380px;
+
+}
+
+.divIzq{
+	background-color: #86abb6;
+	width: 400px;
+	/*height: 405px;*/
+	height: 86%;
+	position: fixed;
+	right: 30px;
+	top:90px;
+}
+.divIzq2{
+	background-color: #86abb6;
+	width: 400px;
+	height: 200px;
+	position: fixed;
+	right: 30px;
+	top:515px;
+}
+.b{
+	background-color: #2d646d;
+	color:#d6b059;
+	font-family: Roboto;
+	width: 40px;
+	border: 1px solid #2d646d;
+    border-radius: 10px;
+    float:top;
+    margin-left: 580px;
+    margin-top: -130px;
+}
+.b2{
+	background-color: #2d646d;
+	color:#d6b059;
+	font-family: Roboto;
+	width: 50px;
+	border: 1px solid #2d646d;
+    border-radius: 10px;
+    float:top;
+    margin-left: 580px;
+    margin-top: -130px;
+}
+
+.origen{
+/*	background-color: #d37465;*/
+	background-color: #529AA7;
+	font-family: Roboto;
+	color: whites;
+	border-radius: 10px;
+	width: 150px;
+	height:25px;
+	position: fixed;
+	right: 260px;
+	top:140px;
+	padding: 1px;
+}
+input::placeholder { 
+  color: white;
+  opacity: 1; 
+}
+.destino{
+	/*background-color: #d37465;*/
+	background-color: #529AA7;
+	font-family: Roboto;
+	color: white;
+	width: 150px;
+	height:25px;
+	position: fixed;
+	right: 50px;
+	top:140px;
+	border-radius: 10px;
+	padding: 1px;
+	}
+.flechas{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	right: 220px;
+	top:140px;	
+}
+.fecha{
+	position: fixed;
+	right:360px;
+	top:180px;
+	font-size: 20px;
+}
+.calendario{
+	/*position: fixed;*/
+	right: 280px;
+	margin-left: 5px;
+	height: 30px;
+	/*top:245px;*/
+	margin-top: 80px;
+	width: calc(100% - 20px);
+	background-color: #529AA7;
+    color: white;
+border-radius: 15px;
+}
+.precio{
+	position: fixed;
+	right:360px;
+	top:280px;
+	font-size: 20px;
+}
+.rango{
+	position: fixed;
+	right:127px;
+	top:350px;
+	width: 200px;
+}
+.p{
+	color:gray;
+	position: fixed;
+	right:200px;
+	top:310px;
+}
+
+.busqueda{
+	/*position: fixed;*/
+	right:200px;
+	top:360px;
+	margin-bottom: 20px;
+}
+.calendar{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	right:270px;
+	top:430px;
+}
+.fecha2{
+	font-size: 19px;
+	position: fixed;
+	right:320px;
+	top:420px;
+}
+.ubicacion{
+	font-size: 19px;
+	position: fixed;
+	right:150px;
+	top:420px;
+}
+.location{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	right:100px;
+	top:430px;
+}
+.vD{
+	background-color:#25616e;
+	color: white;
+	width:280px;
+	height: 30px;
+	position: fixed;
+	right:700px;
+	top:7px;
+	border-top-left-radius: 8px;
+}
+.pV{
+	background-color:#25616e;
+	color: white;
+	width:280px;
+	height: 30px;
+	position: fixed;
+	right:440px;
+	top:7px;
+	border-top-right-radius: 8px;
+}
+.bv{
+	background-color:#d5d5d8;
+	height: 24px;
+	position: fixed;
+	right:128px;
+	top:7px;
+	border-top-left-radius: 8px;
+
+}
+.lupa{
+	background-color:#d37465;
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	right:100px;
+	top:7px;
+}
+.usuario{
+	background-color:#d37465;
+	border-radius:60px;
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	right:60px;
+	top:7px;
+}
+.botonNav{
+			width: 240px;
+			height: 60px;
+			color: lightgray;
+			background-color: #59606B;
+			font-size: 20px;
+			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+			margin-top: 10px;
+			border-radius: 9px;
+			text-align: center;
+		}
+		.ll{
+			float: left;
+			width: 6%;
+			height: 10%;
+			position: relative;
+		}
+		.btnPerfil{
+			float: right;
+			position: relative;
+			width: 40px;
+			height: 40px;
+			position: relative;
+			margin-right: 15px;
+			margin-top: 18px;
+		}
+		.activo{
+	background-color: #989EA9;
+}
+.p{
+	color: white;
+}

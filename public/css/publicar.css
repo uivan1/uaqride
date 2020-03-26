@@ -1,0 +1,128 @@
+
+		.btnPerfil{
+			float: right;
+			position: relative;
+			width: 40px;
+			height: 40px;
+			position: relative;
+			margin-right: 15px;
+			margin-top: 18px;
+		}	
+
+		.viaje{
+			width: 97%;
+			height: 100%;
+			padding: 9px;
+			background-color: #3A4049;
+			position: absolute;
+		}	
+
+		.mapa{
+			margin-top: 45px; 
+			margin-left: 55px;
+			width: 670px;
+			height: 550px;
+			background-color: #FFFFFF;
+			position: absolute;float: left;
+		}
+
+		.vl {
+			margin-top: 0.64%;
+			margin-right: 40%;
+			margin-left: 56%;
+		    border-left: 4px solid gray;
+		    height: 95%;
+		    width: 40px;
+		    position: absolute;
+		}
+
+		.descViaje{
+			align-content: center;
+			margin-top: 0.64%;
+			margin-left: 60%;
+			margin-right: 1%;
+			width: 470px;
+			/*height: 88%;*/
+			border-radius: 35px;
+			padding: 1.5%;
+			position: absolute;
+			background-color: #1DB0B0;
+		}
+
+		.campoViaje{
+			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+			font-size: 18px;
+			margin-bottom: 1px;
+			font-weight: bolder;
+		}
+
+		.inputViaje{
+			background-color: #F5EDED;
+			color: #AA9090;
+			font-size: 17px;
+			width: 85%;
+			height: 6px;
+			border-radius: 15px;
+			padding: 16px;
+		}
+
+		sup{
+			font-weight: bolder;
+			font-style: italic;
+		}
+
+		.inputLugar{
+			background-color: #F5EDED;
+			color: #AA9090;
+			font-size: 17px;
+			width: 25%;
+			height: 6px;
+			border-radius: 15px;
+			padding: 16px;
+		}
+
+		.btnLugar{
+			font-weight: bold;
+			border-radius: 5px;
+			width: 30px;
+			height: 25px;
+			font-size: 18px;
+		}
+
+		.inputPrecio{
+			background-color: #F5EDED;
+			color: #AA9090;
+			font-size: 17px;
+			width: 25%;
+			height: 6px;
+			border-radius: 15px;
+			padding: 16px;
+		}
+
+		.btnPublicar{
+			float: right;
+			/*margin-left: 55px;*/
+			border-radius: 50px;
+			background-color: #ACAC4F;
+			color: #605959;
+			width: 150px;
+			height: 50px;
+			border-color: gray;
+			font-size: 14px;
+			font-weight: bold;
+		}
+input[type="text"]::-webkit-input-placeholder {
+  color: #616354;
+}
+.slider {
+  width: 50%;
+  height: 15px;
+  border-radius: 5px;   
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  /*float: right;*/
+}
+.activo{
+	background-color: #989EA9;
+}

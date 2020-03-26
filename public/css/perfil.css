@@ -1,0 +1,159 @@
+img{
+			float: left;
+			width: 6%;
+			height: 10%;
+			position: relative;
+		}
+
+		.nav{
+			position: relative;
+			margin-left: 10px;
+		}
+
+		.botonNav{
+			width: 240px;
+			height: 60px;
+			color: lightgray;
+			background-color: #59606B;
+			font-size: 20px;
+			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+			margin-top: 10px;
+			border-radius: 9px;
+			text-align: center;
+		}
+
+		.btnPerfil{
+			float: right;
+			position: relative;
+			width: 40px;
+			height: 40px;
+			position: relative;
+			margin-right: 15px;
+			margin-top: 18px;
+		}	
+
+		.perfil{
+			width: 30%;
+			height: 60%;
+			border-radius: 35px;
+			padding: 50px;
+			background-color: #1DB0B0;
+			margin: auto;
+		}
+		
+		hr{
+			margin: 20px 2.5%;
+			border;
+			border-color: #2A2A2A;
+		}
+
+		.campoPerfil{
+			background-color: #179292;
+			color: white;
+			width: 95%;
+			height: 10%;
+			border-radius: 15px;
+			padding: 10px;
+			margin-bottom: 4px;
+			border-color: lightblue;
+		}
+		
+		.boton{
+			border-radius: 50px;
+			margin: 18px 30% 0px;
+			background-color: #ACAC4F;
+			color: #605959;
+			width: 110px;
+			height: 28px;
+			border-color: gray;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		
+		::-webkit-input-placeholder { 
+			text-align: center;
+			color: white;
+			font-weight: italic;
+			font-size: 15px;
+		}
+
+		.busqueda{
+			padding: 15px;
+			margin-right: 20px;
+			margin-top: 5px; 
+			position: relative;
+			width: 350px;
+			height: 40px;
+			float: right;
+		}
+
+		.inputBuscar{
+			position: relative;
+			width: 300px;
+			height: 40px;
+			border-radius: 10px;
+		}
+
+		.btnBuscar{
+			float: right;
+			position: relative;
+			width: 40px;
+			height: 40px;
+		}		
+
+		.fotoPerfil{
+			border-radius: 45px;
+			width:90px;
+			height:100px;
+			margin-left: 40%;
+		}
+
+		.btnFoto {
+			/*margin-left: 37%;*/
+			width: 100%;
+			border-radius: 50px;
+			background-color: #ACAC4F;
+			color: #605959;
+			border-color: gray;
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+		.btnMod, .btnConf{
+			border-radius: 50px;
+			background-color: #ACAC4F;
+			color: #605959;
+			border-color: gray;
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+		p{
+			margin-top: 5px;
+			margin-bottom: 0px;
+			font-weight: bold;
+			font-size: 22px;
+		}
+
+		.BotonesPerfil{
+			margin-left: 20%;
+			width: 100%;
+			height: 100%;
+		}
+		.d{
+		background-color: gray;
+		}
+		div#div_file{
+	position:relative;
+	margin:50px;
+	padding:10px;
+	width:150px;
+	background-color: #2499e3;
+	-webkit-border-radius:5px;
+	-webkit-box-shadow:0px 3px 0px #1a71a9;
+}
+.warning{
+			color: white;
+			text-align: center;
+			visibility: hidden;
+		}
